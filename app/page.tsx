@@ -152,7 +152,8 @@ export default function Page() {
                 </h2>
               </div>
               <p className="max-w-md text-sm text-neutral-600 md:text-base">
-                All live. Built on the side, alongside my degree.
+                Each link goes to a live product or experience&mdash;built
+                alongside my degree, not instead of it.
               </p>
             </div>
 
@@ -203,17 +204,20 @@ export default function Page() {
                 What this is.
               </h2>
             </div>
-            <div className="md:col-span-2 space-y-5">
+            <div className="md:col-span-2">
               <p className="text-lg leading-relaxed text-neutral-700 md:text-xl">
-                Preface Labs is my umbrella for side projects. I&rsquo;m a
-                master&rsquo;s student at CMU Tepper, and I use weekends to turn
-                ideas from class and conversations into small products people can
-                actually use.
-              </p>
-              <p className="text-lg leading-relaxed text-neutral-700 md:text-xl">
-                Nothing here is a full-time company yet&mdash;just honest work,
-                shipped. If you&rsquo;re a recruiter or collaborator, I&rsquo;d
-                love to hear from you.
+                <strong className="font-semibold text-neutral-900">
+                  Preface Labs
+                </strong>{" "}
+                is the umbrella I use for side projects while I&rsquo;m at CMU
+                Tepper&mdash;clear packaging for recruiters and collaborators
+                who want to see execution, not just coursework. I build when I
+                have focused blocks outside class&mdash;often weekends&mdash;
+                because the fastest way I learn is to ship: apply frameworks
+                from school, sweat the details in code and product, and aim
+                for outcomes that help real people. Recruiting is the first
+                job of this site; I&rsquo;d love to talk if that mission
+                resonates.
               </p>
             </div>
           </div>
