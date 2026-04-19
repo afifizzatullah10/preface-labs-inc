@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Preface Labs, Inc.",
+  title: "Preface Labs — Portfolio",
   description:
-    "The introduction to what's next. Building AI-powered tools and digital communities for the modern web.",
+    "Side projects by a CMU Tepper master's student. Small, shipped, useful.",
 };
 
 export default function RootLayout({

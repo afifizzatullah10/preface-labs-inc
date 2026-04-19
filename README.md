@@ -1,6 +1,6 @@
-# Preface Labs, Inc.
+# Preface Labs · portfolio site
 
-A minimalist single-page site for Preface Labs, Inc. &mdash; a tech holding company building AI-powered tools and digital communities.
+Personal portfolio site for **Preface Labs**—projects built while pursuing a master’s at Carnegie Mellon (weekends and spare time), aimed first at recruiting and conversations about shipped work.
 
 ## Stack
 
@@ -9,6 +9,8 @@ A minimalist single-page site for Preface Labs, Inc. &mdash; a tech holding comp
 - lucide-react icons
 - Inter via `next/font/google`
 
+Archived “company-first” marketing copy lives in [`future.md`](future.md).
+
 ## Getting started
 
 ```bash
@@ -16,17 +18,17 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000) (or pass `-p 3001` if you prefer another port).
 
 ## Scripts
 
-- `npm run dev` &mdash; start the dev server
-- `npm run build` &mdash; production build
-- `npm run start` &mdash; run the production build
-- `npm run lint` &mdash; lint with ESLint
+- `npm run dev` — start the dev server
+- `npm run build` — production build
+- `npm run start` — run the production build
+- `npm run lint` — lint with ESLint
 
 ## Project structure
 
-- `app/layout.tsx` &mdash; root layout, metadata, Inter font
-- `app/page.tsx` &mdash; the single-page site (Header, Hero, Portfolio, About, Footer)
-- `app/globals.css` &mdash; Tailwind + global styles
+- `app/layout.tsx` — root layout, metadata, Inter font
+- `app/page.tsx` — single-page site (Header, Hero, Portfolio, About, Footer)
+- `app/globals.css` — Tailwind + global styles

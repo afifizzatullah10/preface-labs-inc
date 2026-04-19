@@ -39,27 +39,28 @@ const portfolio: PortfolioItem[] = [
   {
     name: "Solyns AI",
     description:
-      "The core AI-powered interview platform automating insights.",
+      "AI interview platform. Runs conversational interviews and turns the answers into structured, ready-to-use insights.",
     href: "https://solyns.com",
     icon: Bot,
   },
   {
     name: "Solyns AI Form",
     description:
-      "AI intelligent, structured intake forms for automated data collection.",
+      "Intelligent intake forms. Asks smarter follow-up questions and cleans up the data so teams can act on it faster.",
     href: "https://form.solyns.com",
     icon: FileText,
   },
   {
     name: "ReplyLocal",
-    description: "Tools for local engagement and business outreach.",
+    description:
+      "Local outreach tools for small businesses. Helps owners stay on top of reviews, replies, and conversations with their community.",
     href: "https://replylocal.app",
     icon: MapPin,
   },
   {
     name: "Moonlight Muslims",
     description:
-      "Personalized, AI-powered bedtime audio stories that bring Islamic values to life for the next generation.",
+      "Personalized bedtime audio stories rooted in Islamic values. Built for Muslim families who want nightly stories that feel like their own.",
     href: "https://moonlightmuslims.com",
     icon: Moon,
   },
@@ -107,28 +108,29 @@ export default function Page() {
           />
           <div className="relative mx-auto flex max-w-6xl flex-col items-center px-6 py-28 text-center md:py-40">
             <span className="mb-6 inline-flex items-center rounded-full border border-neutral-200 bg-white/80 px-3 py-1 text-xs font-medium text-neutral-600 shadow-sm backdrop-blur">
-              A tech holding company
+              CMU · Portfolio
             </span>
             <h1 className="text-5xl font-semibold tracking-tight text-neutral-900 md:text-7xl">
-              Preface Labs, Inc.
+              Preface Labs
             </h1>
-            <p className="mt-6 max-w-2xl text-base text-neutral-600 md:text-xl">
-              The introduction to what&rsquo;s next. Building AI-powered tools
-              and digital communities for the modern web.
+            <p className="mt-6 max-w-xl text-base text-neutral-600 md:text-lg">
+              Side projects I build on weekends while studying at CMU. Each one
+              takes what I&rsquo;m learning in class and turns it into a small,
+              working product.
             </p>
             <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row">
               <a
                 href="#portfolio"
                 className="group inline-flex items-center gap-2 rounded-full bg-neutral-900 px-6 py-3 text-sm font-medium text-white shadow-sm transition-all hover:bg-neutral-800 hover:shadow-md"
               >
-                View Portfolio
+                See projects
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
               </a>
               <a
                 href="#contact"
                 className="inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-white px-6 py-3 text-sm font-medium text-neutral-900 transition-colors hover:border-neutral-400"
               >
-                Get in touch
+                Contact
               </a>
             </div>
           </div>
@@ -143,14 +145,14 @@ export default function Page() {
             <div className="mb-12 flex flex-col gap-3 md:mb-16 md:flex-row md:items-end md:justify-between">
               <div>
                 <p className="text-sm font-medium uppercase tracking-widest text-neutral-500">
-                  Portfolio
+                  Projects
                 </p>
                 <h2 className="mt-3 text-3xl font-semibold tracking-tight text-neutral-900 md:text-4xl">
-                  What we&rsquo;re building.
+                  What I&rsquo;ve shipped.
                 </h2>
               </div>
               <p className="max-w-md text-sm text-neutral-600 md:text-base">
-                A growing family of AI-first products shipping to real users.
+                All live. Built on the side, alongside my degree.
               </p>
             </div>
 
@@ -198,17 +200,20 @@ export default function Page() {
                 About
               </p>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight text-neutral-900 md:text-4xl">
-                A holding company for what&rsquo;s next.
+                What this is.
               </h2>
             </div>
-            <div className="md:col-span-2">
+            <div className="md:col-span-2 space-y-5">
               <p className="text-lg leading-relaxed text-neutral-700 md:text-xl">
-                Preface Labs is a tech holding company building AI-powered tools
-                and digital communities. We prefer small, opinionated teams,
-                honest craft, and products that ship. Each company in our
-                portfolio stands on its own&mdash;connected by a shared belief
-                that the best software feels like an introduction to what&rsquo;s
-                possible.
+                Preface Labs is my umbrella for side projects. I&rsquo;m a
+                master&rsquo;s student at CMU Tepper, and I use weekends to turn
+                ideas from class and conversations into small products people can
+                actually use.
+              </p>
+              <p className="text-lg leading-relaxed text-neutral-700 md:text-xl">
+                Nothing here is a full-time company yet&mdash;just honest work,
+                shipped. If you&rsquo;re a recruiter or collaborator, I&rsquo;d
+                love to hear from you.
               </p>
             </div>
           </div>
@@ -219,9 +224,9 @@ export default function Page() {
       <footer id="contact" className="border-t border-neutral-200 bg-white">
         <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 px-6 py-10 md:flex-row md:items-center">
           <p className="text-sm text-neutral-500">
-            &copy; 2026 Preface Labs, Inc. Built in Pittsburgh.
+            &copy; 2026 Preface Labs · CMU Tepper · Pittsburgh
           </p>
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <a
               href="mailto:mizzatul@tepper.cmu.edu"
               className="inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-white px-4 py-2 text-sm text-neutral-700 transition-colors hover:border-neutral-400 hover:text-neutral-900"
