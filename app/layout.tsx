@@ -10,7 +10,28 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Preface Labs — Portfolio",
   description:
-    "Side projects by a CMU Tepper master's student. Small, shipped, useful.",
+    "Side projects by a Carnegie Mellon University master's student. Small, shipped, useful.",
+  metadataBase: new URL("https://prefacelabs.com"),
+  manifest: "/manifest.webmanifest",
+  icons: {
+    icon: [{ url: "/icon", type: "image/png" }],
+    apple: [{ url: "/apple-icon", type: "image/png" }],
+    shortcut: ["/icon"],
+  },
+  openGraph: {
+    title: "Preface Labs — Portfolio",
+    description:
+      "Side projects by a Carnegie Mellon University master's student. Small, shipped, useful.",
+    type: "website",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Preface Labs — Portfolio",
+    description:
+      "Side projects by a Carnegie Mellon University master's student. Small, shipped, useful.",
+    images: ["/twitter-image"],
+  },
 };
 
 export default function RootLayout({

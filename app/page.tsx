@@ -8,6 +8,7 @@ import {
   Moon,
   type LucideIcon,
 } from "lucide-react";
+import Image from "next/image";
 import ThemeToggle from "./components/theme-toggle";
 
 function LinkedinIcon({ className }: { className?: string }) {
@@ -111,15 +112,15 @@ export default function Page() {
           />
           <div className="relative mx-auto flex max-w-6xl flex-col items-center px-6 py-28 text-center md:py-40">
             <span className="mb-6 inline-flex items-center rounded-full border border-neutral-200 bg-white/80 px-3 py-1 text-xs font-medium text-neutral-600 backdrop-blur dark:border-neutral-800 dark:bg-neutral-900/80 dark:text-neutral-400">
-              CMU · Portfolio
+              Carnegie Mellon University · Portfolio
             </span>
             <h1 className="text-5xl font-semibold tracking-tight text-neutral-900 dark:text-white md:text-7xl">
               Preface Labs
             </h1>
             <p className="mt-6 max-w-xl text-base text-neutral-600 dark:text-neutral-400 md:text-lg">
-              Side projects I build on weekends while studying at CMU. Each one
-              takes what I&rsquo;m learning in class and turns it into a small,
-              working product.
+              Side projects I build on weekends while studying at Carnegie Mellon
+              University. Each one takes what I&rsquo;m learning in class and
+              turns it into a small, working product.
             </p>
             <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row">
               <a
@@ -138,6 +139,22 @@ export default function Page() {
             </div>
           </div>
         </section>
+
+        <div className="border-t border-neutral-200 bg-white dark:border-neutral-800 dark:bg-black">
+          <div className="mx-auto flex max-w-6xl flex-col items-center justify-center gap-2 px-6 py-8 md:py-10">
+            <span className="text-sm text-neutral-500 dark:text-neutral-400">
+              Built at
+            </span>
+            <Image
+              src="/cmu-wordmark-bw.svg"
+              alt="Built at Carnegie Mellon University"
+              width={311}
+              height={28}
+              className="h-7 w-auto opacity-85 dark:invert"
+              priority
+            />
+          </div>
+        </div>
 
         {/* Portfolio */}
         <section
@@ -215,15 +232,15 @@ export default function Page() {
                 <strong className="font-semibold text-neutral-900 dark:text-white">
                   Preface Labs
                 </strong>{" "}
-                is the umbrella I use for side projects while I&rsquo;m at CMU
-                Tepper&mdash;clear packaging for recruiters and collaborators
-                who want to see execution, not just coursework. I build when I
-                have focused blocks outside class&mdash;often weekends&mdash;
-                because the fastest way I learn is to ship: apply frameworks
-                from school, sweat the details in code and product, and aim
-                for outcomes that help real people. Recruiting is the first
-                job of this site; I&rsquo;d love to talk if that mission
-                resonates.
+                is the umbrella I use for side projects while I&rsquo;m at
+                Carnegie Mellon University&mdash;clear packaging for recruiters
+                and collaborators who want to see execution, not just
+                coursework. I build when I have focused blocks outside
+                class&mdash;often weekends&mdash;because the fastest way I learn
+                is to ship: apply frameworks from school, sweat the details in
+                code and product, and aim for outcomes that help real people.
+                Recruiting is the first job of this site; I&rsquo;d love to talk
+                if that mission resonates.
               </p>
             </div>
           </div>
@@ -237,7 +254,7 @@ export default function Page() {
       >
         <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 px-6 py-10 md:flex-row md:items-center">
           <p className="text-sm text-neutral-500 dark:text-neutral-500">
-            &copy; 2026 Preface Labs · CMU Tepper · Pittsburgh
+            &copy; 2026 Preface Labs · Carnegie Mellon University · Pittsburgh
           </p>
           <div className="flex flex-wrap items-center gap-2">
             <a

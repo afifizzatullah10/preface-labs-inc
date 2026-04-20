@@ -1,6 +1,6 @@
 # Archived website copy — company-building framing
 
-Saved before pivoting the site toward **recruiting first** (portfolio / master’s story at CMU). Use this if you ever want to restore the “building a company” tone.
+Saved before pivoting the site toward **recruiting first** (portfolio / master’s story at Carnegie Mellon University). Use this if you ever want to restore the “building a company” tone.
 
 ---
 

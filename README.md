@@ -18,13 +18,13 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) (or pass `-p 3001` if you prefer another port).
+Open [http://localhost:3001](http://localhost:3001).
 
 ## Scripts
 
-- `npm run dev` — start the dev server
+- `npm run dev` — start the dev server on port 3001
 - `npm run build` — production build
-- `npm run start` — run the production build
+- `npm run start` — run the production build on port 3001
 - `npm run lint` — lint with ESLint
 
 ## Project structure
