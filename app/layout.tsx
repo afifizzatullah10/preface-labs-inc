@@ -14,9 +14,9 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://prefacelabs.com"),
   manifest: "/manifest.webmanifest",
   icons: {
-    icon: [{ url: "/icon", type: "image/png" }],
-    apple: [{ url: "/apple-icon", type: "image/png" }],
-    shortcut: ["/icon"],
+    icon: [{ url: "/icon?v=2", type: "image/png" }],
+    apple: [{ url: "/apple-icon?v=2", type: "image/png" }],
+    shortcut: ["/icon?v=2"],
   },
   openGraph: {
     title: "Preface Labs — Portfolio",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: "https://prefacelabs.com",
     images: [
       {
-        url: "/opengraph-image",
+        url: "/opengraph-image?v=2",
         width: 1200,
         height: 630,
         alt: "Preface Labs portfolio preview card",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Preface Labs — Portfolio",
     description:
       "Shipped AI and product projects built while studying at Carnegie Mellon University.",
-    images: ["/twitter-image"],
+    images: ["/twitter-image?v=2"],
   },
 };
 
