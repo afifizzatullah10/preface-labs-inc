@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Preface Labs — Portfolio",
   description:
-    "Side projects by a Carnegie Mellon University master's student. Small, shipped, useful.",
+    "Portfolio of shipped side projects by a Carnegie Mellon University master's student.",
   metadataBase: new URL("https://prefacelabs.com"),
   manifest: "/manifest.webmanifest",
   icons: {
@@ -21,15 +21,24 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Preface Labs — Portfolio",
     description:
-      "Side projects by a Carnegie Mellon University master's student. Small, shipped, useful.",
+      "Shipped AI and product projects built while studying at Carnegie Mellon University.",
     type: "website",
-    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    siteName: "Preface Labs",
+    url: "https://prefacelabs.com",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Preface Labs portfolio preview card",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Preface Labs — Portfolio",
     description:
-      "Side projects by a Carnegie Mellon University master's student. Small, shipped, useful.",
+      "Shipped AI and product projects built while studying at Carnegie Mellon University.",
     images: ["/twitter-image"],
   },
 };

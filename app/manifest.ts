@@ -5,12 +5,17 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Preface Labs",
     short_name: "Preface",
     description:
-      "Side projects by a Carnegie Mellon University master's student. Small, shipped, useful.",
+      "Portfolio of shipped side projects by a Carnegie Mellon University master's student.",
     start_url: "/",
     display: "standalone",
     background_color: "#0f172a",
     theme_color: "#1d4ed8",
     icons: [
+      {
+        src: "/icon",
+        sizes: "192x192",
+        type: "image/png",
+      },
       {
         src: "/icon",
         sizes: "512x512",

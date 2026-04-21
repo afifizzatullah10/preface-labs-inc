@@ -19,7 +19,7 @@ export default function OpenGraphImage() {
           alignItems: "center",
           justifyContent: "space-between",
           background:
-            "linear-gradient(135deg, rgba(15,23,42,1) 0%, rgba(30,64,175,1) 100%)",
+            "linear-gradient(135deg, rgba(17,24,39,1) 0%, rgba(63,63,70,1) 100%)",
           padding: "72px",
           color: "white",
           fontFamily: "Inter, sans-serif",
@@ -31,16 +31,16 @@ export default function OpenGraphImage() {
               fontSize: 24,
               letterSpacing: 4,
               textTransform: "uppercase",
-              opacity: 0.8,
+              color: "#fca5a5",
             }}
           >
-            Portfolio
+            Carnegie Mellon University
           </div>
           <div style={{ fontSize: 84, fontWeight: 700, lineHeight: 1.05 }}>
             Preface Labs
           </div>
-          <div style={{ fontSize: 32, opacity: 0.9 }}>
-            Side projects by a Carnegie Mellon University master&apos;s student.
+          <div style={{ fontSize: 32, opacity: 0.92 }}>
+            Shipped AI and product projects built while studying at CMU.
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>

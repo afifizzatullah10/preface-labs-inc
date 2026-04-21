@@ -19,7 +19,7 @@ export default function TwitterImage() {
           alignItems: "center",
           justifyContent: "space-between",
           background:
-            "linear-gradient(135deg, rgba(15,23,42,1) 0%, rgba(30,64,175,1) 100%)",
+            "linear-gradient(135deg, rgba(17,24,39,1) 0%, rgba(63,63,70,1) 100%)",
           padding: "72px",
           color: "white",
           fontFamily: "Inter, sans-serif",
@@ -31,16 +31,16 @@ export default function TwitterImage() {
               fontSize: 22,
               letterSpacing: 3.5,
               textTransform: "uppercase",
-              opacity: 0.8,
+              color: "#fca5a5",
             }}
           >
-            Build. Learn. Ship.
+            CMU Student Portfolio
           </div>
           <div style={{ fontSize: 80, fontWeight: 700, lineHeight: 1.05 }}>
             Preface Labs
           </div>
-          <div style={{ fontSize: 30, opacity: 0.9 }}>
-            Small, shipped projects from Carnegie Mellon University.
+          <div style={{ fontSize: 30, opacity: 0.92 }}>
+            Real products shipped alongside class, focused on AI and growth.
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
