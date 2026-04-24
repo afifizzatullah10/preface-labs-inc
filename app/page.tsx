@@ -73,7 +73,7 @@ const portfolio: PortfolioItem[] = [
     icon: MapPin,
   },
   {
-    name: "Moonlight Muslims",
+    name: "Moonlight",
     description:
       "Personalized bedtime audio stories rooted in Islamic values. Built for Muslim families who want nightly stories that feel like their own.",
     href: "https://moonlightmuslims.com",
