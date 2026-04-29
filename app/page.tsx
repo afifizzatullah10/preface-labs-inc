@@ -46,6 +46,7 @@ function GithubIcon({ className }: { className?: string }) {
 type PortfolioItem = {
   name: string;
   description: string;
+  stack: string[];
   href: string;
   icon: LucideIcon;
 };
@@ -55,6 +56,7 @@ const portfolio: PortfolioItem[] = [
     name: "Solyns AI",
     description:
       "AI interview platform. Runs conversational interviews and turns the answers into structured, ready-to-use insights.",
+    stack: ["Next.js", "TypeScript", "OpenAI", "Supabase", "Tailwind CSS"],
     href: "https://solyns.com",
     icon: Bot,
   },
@@ -62,6 +64,14 @@ const portfolio: PortfolioItem[] = [
     name: "Solyns AI Form",
     description:
       "Intelligent intake forms. Asks smarter follow-up questions and cleans up the data so teams can act on it faster.",
+    stack: [
+      "React",
+      "Vite",
+      "TypeScript",
+      "Supabase",
+      "TanStack Query",
+      "Tailwind CSS",
+    ],
     href: "https://form.solyns.com",
     icon: FileText,
   },
@@ -69,13 +79,15 @@ const portfolio: PortfolioItem[] = [
     name: "ReplyLocal",
     description:
       "Local outreach tools for small businesses. Helps owners stay on top of reviews, replies, and conversations with their community.",
+    stack: ["React", "TypeScript", "Firebase", "Google APIs", "Tailwind CSS"],
     href: "https://replylocal.app",
     icon: MapPin,
   },
   {
-    name: "Moonlight",
+    name: "Moonlight AI",
     description:
-      "Personalized bedtime audio stories rooted in Islamic values. Built for Muslim families who want nightly stories that feel like their own.",
+      "AI-generated personalized bedtime stories rooted in Islamic values. Built for Muslim families who want nightly stories that feel like their own.",
+    stack: ["Next.js", "TypeScript", "Supabase", "OpenAI", "Stripe", "Resend"],
     href: "https://moonlightmuslims.com",
     icon: Moon,
   },
@@ -144,10 +156,10 @@ export default function Page() {
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
               </a>
               <a
-                href="#contact"
+                href="/login"
                 className="inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-white px-6 py-3 text-sm font-medium text-neutral-900 transition-colors hover:border-neutral-400 dark:border-neutral-800 dark:bg-black dark:text-white dark:hover:border-neutral-600"
               >
-                Contact
+                Login
               </a>
             </div>
           </div>
@@ -216,6 +228,19 @@ export default function Page() {
                     <p className="mt-2 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400 md:text-base">
                       {item.description}
                     </p>
+                    <p className="mt-5 text-xs font-semibold uppercase tracking-widest text-neutral-500 dark:text-neutral-500">
+                      Stacks
+                    </p>
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      {item.stack.map((technology) => (
+                        <span
+                          key={technology}
+                          className="rounded-full border border-neutral-200 bg-neutral-50 px-3 py-1 text-xs font-medium text-neutral-600 dark:border-neutral-800 dark:bg-black dark:text-neutral-400"
+                        >
+                          {technology}
+                        </span>
+                      ))}
+                    </div>
                     <span className="mt-6 text-xs font-medium text-neutral-500 dark:text-neutral-500">
                       {item.href.replace(/^https?:\/\//, "")}
                     </span>
