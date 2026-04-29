@@ -229,7 +229,7 @@ export default function Page() {
                       {item.description}
                     </p>
                     <p className="mt-5 text-xs font-semibold uppercase tracking-widest text-neutral-500 dark:text-neutral-500">
-                      Stacks
+                      Stack
                     </p>
                     <div className="mt-2 flex flex-wrap gap-2">
                       {item.stack.map((technology) => (
