@@ -147,19 +147,13 @@ export default function Page() {
               University. Each one takes what I&rsquo;m learning in class and
               turns it into a small, working product.
             </p>
-            <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row">
+            <div className="mt-10 flex justify-center">
               <a
                 href="#portfolio"
                 className="group inline-flex items-center gap-2 rounded-full bg-neutral-900 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-200"
               >
                 See projects
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-              </a>
-              <a
-                href="/login"
-                className="inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-white px-6 py-3 text-sm font-medium text-neutral-900 transition-colors hover:border-neutral-400 dark:border-neutral-800 dark:bg-black dark:text-white dark:hover:border-neutral-600"
-              >
-                Login
               </a>
             </div>
           </div>
