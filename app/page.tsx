@@ -6,6 +6,7 @@ import {
   Mail,
   MapPin,
   Moon,
+  Trophy,
   type LucideIcon,
 } from "lucide-react";
 import Image from "next/image";
@@ -49,6 +50,7 @@ type PortfolioItem = {
   stack: string[];
   href: string;
   icon: LucideIcon;
+  award?: string;
 };
 
 const portfolio: PortfolioItem[] = [
@@ -82,6 +84,7 @@ const portfolio: PortfolioItem[] = [
     stack: ["React", "TypeScript", "Firebase", "Google APIs", "Tailwind CSS"],
     href: "https://replylocal.app",
     icon: MapPin,
+    award: "Top 10 Finalist in the OpenAI x Handshake Codex Creator Challenge out of 1,500+ U.S. submissions",
   },
   {
     name: "Moonlight AI",
@@ -222,6 +225,14 @@ export default function Page() {
                     <p className="mt-2 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400 md:text-base">
                       {item.description}
                     </p>
+                    {item.award && (
+                      <div className="mt-4 flex items-start gap-2.5">
+                        <Trophy className="mt-0.5 h-4 w-4 shrink-0 text-neutral-900 dark:text-white" />
+                        <span className="text-sm font-medium leading-relaxed text-neutral-700 dark:text-neutral-300">
+                          {item.award}
+                        </span>
+                      </div>
+                    )}
                     <p className="mt-5 text-xs font-semibold uppercase tracking-widest text-neutral-500 dark:text-neutral-500">
                       Stack
                     </p>
