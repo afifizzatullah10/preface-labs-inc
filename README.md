@@ -1,6 +1,6 @@
-# Preface Labs, Inc.
+# Preface Labs
 
-Company site for **Preface Labs, Inc.**—a tech holding company building AI-powered tools and digital communities.
+Company site for **Preface Labs**—a tech holding company building AI-powered tools and digital communities.
 
 ## Stack
 

@@ -6,7 +6,7 @@ This is the live company-first copy. It was saved when the site briefly pivoted 
 
 ## SEO / metadata (`app/layout.tsx`)
 
-- **Title:** Preface Labs, Inc.
+- **Title:** Preface Labs
 - **Description:** The introduction to what's next. Building AI-powered tools and digital communities for the modern web.
 
 ---
@@ -14,7 +14,7 @@ This is the live company-first copy. It was saved when the site briefly pivoted 
 ## Hero
 
 - **Pill:** A tech holding company
-- **Headline:** Preface Labs, Inc.
+- **Headline:** Preface Labs
 - **Subheadline:** The introduction to what's next. Building AI-powered tools and digital communities for the modern web.
 - **Primary CTA:** View Portfolio
 - **Secondary CTA:** Get in touch
@@ -40,10 +40,10 @@ This is the live company-first copy. It was saved when the site briefly pivoted 
 
 - **Eyebrow:** About
 - **Heading:** A holding company for what's next.
-- **Body:** Preface Labs is a tech holding company building AI-powered tools and digital communities. We prefer small, opinionated teams, honest craft, and products that ship. Each company in our portfolio stands on its own—connected by a shared belief that the best software feels like an introduction to what's possible.
+- **Body:** Preface Labs is a tech holding company building AI-powered tools and digital communities. We are a lean, founder-led studio that values honest craft and products that ship. Each product in our portfolio stands on its own, connected by a shared belief that the best software feels like an introduction to what's possible.
 
 ---
 
 ## Footer
 
-- **Line:** © 2026 Preface Labs, Inc. Built in Pittsburgh.
+- **Line:** © 2026 Preface Labs. Built in Pittsburgh.

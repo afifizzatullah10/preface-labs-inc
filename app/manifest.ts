@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Preface Labs, Inc.",
+    name: "Preface Labs",
     short_name: "Preface",
     description:
       "The introduction to what's next. Building AI-powered tools and digital communities for the modern web.",

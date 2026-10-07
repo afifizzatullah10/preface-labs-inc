@@ -110,7 +110,7 @@ export default function Page() {
             href="#top"
             className="text-base font-bold tracking-tight text-neutral-900 dark:text-white"
           >
-            Preface Labs, Inc.
+            Preface Labs
           </a>
           <div className="flex items-center gap-5 sm:gap-7">
             <nav className="flex items-center gap-5 sm:gap-7">
@@ -141,7 +141,7 @@ export default function Page() {
               A tech holding company
             </span>
             <h1 className="text-5xl font-semibold tracking-tight text-neutral-900 dark:text-white md:text-7xl">
-              Preface Labs, Inc.
+              Preface Labs
             </h1>
             <p className="mt-6 max-w-2xl text-base text-neutral-600 dark:text-neutral-400 md:text-xl">
               The introduction to what&rsquo;s next. Building AI-powered tools
@@ -259,10 +259,10 @@ export default function Page() {
             <div className="md:col-span-2">
               <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-400 md:text-xl">
                 Preface Labs is a tech holding company building AI-powered tools
-                and digital communities. We prefer small, opinionated teams,
-                honest craft, and products that ship. Each company in our
-                portfolio stands on its own&mdash;connected by a shared belief
-                that the best software feels like an introduction to what&rsquo;s
+                and digital communities. We are a lean, founder-led studio that
+                values honest craft and products that ship. Each product in our
+                portfolio stands on its own, connected by a shared belief that
+                the best software feels like an introduction to what&rsquo;s
                 possible.
               </p>
             </div>
@@ -277,7 +277,7 @@ export default function Page() {
       >
         <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 px-6 py-10 md:flex-row md:items-center">
           <p className="text-sm text-neutral-500 dark:text-neutral-500">
-            &copy; 2026 Preface Labs, Inc. Built in Pittsburgh.
+            &copy; 2026 Preface Labs. Built in Pittsburgh.
           </p>
           <div className="flex flex-wrap items-center gap-2">
             <a

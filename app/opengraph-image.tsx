@@ -37,7 +37,7 @@ export default function OpenGraphImage() {
             A tech holding company
           </div>
           <div style={{ fontSize: 64, fontWeight: 700, lineHeight: 1.05 }}>
-            Preface Labs, Inc.
+            Preface Labs
           </div>
           <div style={{ fontSize: 32, opacity: 0.92 }}>
             The introduction to what&apos;s next.

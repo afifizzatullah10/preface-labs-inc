@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Preface Labs, Inc.",
+  title: "Preface Labs",
   description:
     "The introduction to what's next. Building AI-powered tools and digital communities for the modern web.",
   metadataBase: new URL("https://prefacelabs.com"),
@@ -20,27 +20,27 @@ export const metadata: Metadata = {
     shortcut: ["/icon?v=2"],
   },
   openGraph: {
-    title: "Preface Labs, Inc.",
+    title: "Preface Labs",
     description:
       "The introduction to what's next. Building AI-powered tools and digital communities for the modern web.",
     type: "website",
-    siteName: "Preface Labs, Inc.",
+    siteName: "Preface Labs",
     url: "https://prefacelabs.com",
     images: [
       {
-        url: "/opengraph-image?v=3",
+        url: "/opengraph-image?v=4",
         width: 1200,
         height: 630,
-        alt: "Preface Labs, Inc.",
+        alt: "Preface Labs",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Preface Labs, Inc.",
+    title: "Preface Labs",
     description:
       "The introduction to what's next. Building AI-powered tools and digital communities for the modern web.",
-    images: ["/twitter-image?v=3"],
+    images: ["/twitter-image?v=4"],
   },
 };
 

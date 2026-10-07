@@ -37,7 +37,7 @@ export default function TwitterImage() {
             A tech holding company
           </div>
           <div style={{ fontSize: 60, fontWeight: 700, lineHeight: 1.05 }}>
-            Preface Labs, Inc.
+            Preface Labs
           </div>
           <div style={{ fontSize: 30, opacity: 0.92 }}>
             The introduction to what&apos;s next.
