@@ -82,7 +82,7 @@ export default function AdminPage() {
     <main className="min-h-screen bg-neutral-50 px-6 py-8 text-neutral-900 dark:bg-neutral-950 dark:text-white">
       <div className="mx-auto flex max-w-6xl items-center justify-between">
         <Link href="/" className="text-sm font-semibold">
-          Preface Labs
+          Preface Labs, Inc.
         </Link>
         <div className="flex items-center gap-4">
           <Link

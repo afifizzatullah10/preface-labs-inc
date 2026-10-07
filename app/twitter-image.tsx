@@ -34,13 +34,13 @@ export default function TwitterImage() {
               color: "#fca5a5",
             }}
           >
-            CMU Student Portfolio
+            A tech holding company
           </div>
-          <div style={{ fontSize: 80, fontWeight: 700, lineHeight: 1.05 }}>
-            Preface Labs
+          <div style={{ fontSize: 60, fontWeight: 700, lineHeight: 1.05 }}>
+            Preface Labs, Inc.
           </div>
           <div style={{ fontSize: 30, opacity: 0.92 }}>
-            Real products shipped alongside class, focused on AI and growth.
+            The introduction to what&apos;s next.
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>

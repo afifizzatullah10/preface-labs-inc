@@ -1,6 +1,6 @@
-# Preface Labs · portfolio site
+# Preface Labs, Inc.
 
-Personal portfolio site for **Preface Labs**—projects built while pursuing a master’s at Carnegie Mellon (weekends and spare time), aimed first at recruiting and conversations about shipped work.
+Company site for **Preface Labs, Inc.**—a tech holding company building AI-powered tools and digital communities.
 
 ## Stack
 
@@ -9,7 +9,7 @@ Personal portfolio site for **Preface Labs**—projects built while pursuing a m
 - lucide-react icons
 - Inter via `next/font/google`
 
-Archived “company-first” marketing copy lives in [`future.md`](future.md).
+The company-first marketing copy is also recorded in [`future.md`](future.md).
 
 ## Getting started
 

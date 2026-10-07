@@ -34,13 +34,13 @@ export default function OpenGraphImage() {
               color: "#fca5a5",
             }}
           >
-            Carnegie Mellon University
+            A tech holding company
           </div>
-          <div style={{ fontSize: 84, fontWeight: 700, lineHeight: 1.05 }}>
-            Preface Labs
+          <div style={{ fontSize: 64, fontWeight: 700, lineHeight: 1.05 }}>
+            Preface Labs, Inc.
           </div>
           <div style={{ fontSize: 32, opacity: 0.92 }}>
-            Shipped AI and product projects built while studying at CMU.
+            The introduction to what&apos;s next.
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>

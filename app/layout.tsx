@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Preface Labs — Portfolio",
+  title: "Preface Labs, Inc.",
   description:
-    "Portfolio of shipped side projects by a Carnegie Mellon University master's student.",
+    "The introduction to what's next. Building AI-powered tools and digital communities for the modern web.",
   metadataBase: new URL("https://prefacelabs.com"),
   manifest: "/manifest.webmanifest",
   icons: {
@@ -20,27 +20,27 @@ export const metadata: Metadata = {
     shortcut: ["/icon?v=2"],
   },
   openGraph: {
-    title: "Preface Labs — Portfolio",
+    title: "Preface Labs, Inc.",
     description:
-      "Shipped AI and product projects built while studying at Carnegie Mellon University.",
+      "The introduction to what's next. Building AI-powered tools and digital communities for the modern web.",
     type: "website",
-    siteName: "Preface Labs",
+    siteName: "Preface Labs, Inc.",
     url: "https://prefacelabs.com",
     images: [
       {
-        url: "/opengraph-image?v=2",
+        url: "/opengraph-image?v=3",
         width: 1200,
         height: 630,
-        alt: "Preface Labs portfolio preview card",
+        alt: "Preface Labs, Inc.",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Preface Labs — Portfolio",
+    title: "Preface Labs, Inc.",
     description:
-      "Shipped AI and product projects built while studying at Carnegie Mellon University.",
-    images: ["/twitter-image?v=2"],
+      "The introduction to what's next. Building AI-powered tools and digital communities for the modern web.",
+    images: ["/twitter-image?v=3"],
   },
 };
 

@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Preface Labs",
+    name: "Preface Labs, Inc.",
     short_name: "Preface",
     description:
-      "Portfolio of shipped side projects by a Carnegie Mellon University master's student.",
+      "The introduction to what's next. Building AI-powered tools and digital communities for the modern web.",
     start_url: "/",
     display: "standalone",
     background_color: "#0f172a",

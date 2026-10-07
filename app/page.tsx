@@ -9,7 +9,6 @@ import {
   Trophy,
   type LucideIcon,
 } from "lucide-react";
-import Image from "next/image";
 import ThemeToggle from "./components/theme-toggle";
 
 function LinkedinIcon({ className }: { className?: string }) {
@@ -57,7 +56,7 @@ const portfolio: PortfolioItem[] = [
   {
     name: "Solyns AI",
     description:
-      "AI interview platform. Runs conversational interviews and turns the answers into structured, ready-to-use insights.",
+      "The core AI-powered interview platform automating insights.",
     stack: ["Next.js", "TypeScript", "OpenAI", "Supabase", "Tailwind CSS"],
     href: "https://solyns.com",
     icon: Bot,
@@ -65,7 +64,7 @@ const portfolio: PortfolioItem[] = [
   {
     name: "Solyns AI Form",
     description:
-      "Intelligent intake forms. Asks smarter follow-up questions and cleans up the data so teams can act on it faster.",
+      "AI intelligent, structured intake forms for automated data collection.",
     stack: [
       "React",
       "Vite",
@@ -79,17 +78,16 @@ const portfolio: PortfolioItem[] = [
   },
   {
     name: "ReplyLocal",
-    description:
-      "Local outreach tools for small businesses. Helps owners stay on top of reviews, replies, and conversations with their community.",
+    description: "Tools for local engagement and business outreach.",
     stack: ["React", "TypeScript", "Firebase", "Google APIs", "Tailwind CSS"],
     href: "https://replylocal.app",
     icon: MapPin,
     award: "Top 10 Finalist in the OpenAI x Handshake Codex Creator Challenge out of 1,500+ U.S. submissions",
   },
   {
-    name: "Moonlight AI",
+    name: "Moonlight Muslims",
     description:
-      "AI-generated personalized bedtime stories rooted in Islamic values. Built for Muslim families who want nightly stories that feel like their own.",
+      "Personalized, AI-powered bedtime audio stories that bring Islamic values to life for the next generation.",
     stack: ["Next.js", "TypeScript", "Supabase", "OpenAI", "Stripe", "Resend"],
     href: "https://moonlightmuslims.com",
     icon: Moon,
@@ -112,7 +110,7 @@ export default function Page() {
             href="#top"
             className="text-base font-bold tracking-tight text-neutral-900 dark:text-white"
           >
-            Preface Labs
+            Preface Labs, Inc.
           </a>
           <div className="flex items-center gap-5 sm:gap-7">
             <nav className="flex items-center gap-5 sm:gap-7">
@@ -140,43 +138,32 @@ export default function Page() {
           />
           <div className="relative mx-auto flex max-w-6xl flex-col items-center px-6 py-28 text-center md:py-40">
             <span className="mb-6 inline-flex items-center rounded-full border border-neutral-200 bg-white/80 px-3 py-1 text-xs font-medium text-neutral-600 backdrop-blur dark:border-neutral-800 dark:bg-neutral-900/80 dark:text-neutral-400">
-              Carnegie Mellon University · Portfolio
+              A tech holding company
             </span>
             <h1 className="text-5xl font-semibold tracking-tight text-neutral-900 dark:text-white md:text-7xl">
-              Preface Labs
+              Preface Labs, Inc.
             </h1>
-            <p className="mt-6 max-w-xl text-base text-neutral-600 dark:text-neutral-400 md:text-lg">
-              Side projects I build on weekends while studying at Carnegie Mellon
-              University. Each one takes what I&rsquo;m learning in class and
-              turns it into a small, working product.
+            <p className="mt-6 max-w-2xl text-base text-neutral-600 dark:text-neutral-400 md:text-xl">
+              The introduction to what&rsquo;s next. Building AI-powered tools
+              and digital communities for the modern web.
             </p>
-            <div className="mt-10 flex justify-center">
+            <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row">
               <a
                 href="#portfolio"
                 className="group inline-flex items-center gap-2 rounded-full bg-neutral-900 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-200"
               >
-                See projects
+                View Portfolio
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+              </a>
+              <a
+                href="#contact"
+                className="inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-white px-6 py-3 text-sm font-medium text-neutral-900 transition-colors hover:border-neutral-400 dark:border-neutral-800 dark:bg-black dark:text-white dark:hover:border-neutral-600"
+              >
+                Get in touch
               </a>
             </div>
           </div>
         </section>
-
-        <div className="border-t border-neutral-200 bg-white dark:border-neutral-800 dark:bg-black">
-          <div className="mx-auto flex max-w-6xl flex-col items-center justify-center gap-2 px-6 py-8 md:py-10">
-            <span className="text-sm text-neutral-500 dark:text-neutral-400">
-              Built at
-            </span>
-            <Image
-              src="/cmu-wordmark-bw.svg"
-              alt="Built at Carnegie Mellon University"
-              width={311}
-              height={28}
-              className="h-7 w-auto opacity-85 dark:invert"
-              priority
-            />
-          </div>
-        </div>
 
         {/* Portfolio */}
         <section
@@ -187,15 +174,14 @@ export default function Page() {
             <div className="mb-12 flex flex-col gap-3 md:mb-16 md:flex-row md:items-end md:justify-between">
               <div>
                 <p className="text-sm font-medium uppercase tracking-widest text-neutral-500 dark:text-neutral-500">
-                  Projects
+                  Portfolio
                 </p>
                 <h2 className="mt-3 text-3xl font-semibold tracking-tight text-neutral-900 dark:text-white md:text-4xl">
-                  What I&rsquo;ve shipped.
+                  What we&rsquo;re building.
                 </h2>
               </div>
               <p className="max-w-md text-sm text-neutral-600 dark:text-neutral-400 md:text-base">
-                Each link goes to a live product or experience&mdash;built
-                alongside my degree, not instead of it.
+                A growing family of AI-first products shipping to real users.
               </p>
             </div>
 
@@ -267,23 +253,17 @@ export default function Page() {
                 About
               </p>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight text-neutral-900 dark:text-white md:text-4xl">
-                What this is.
+                A holding company for what&rsquo;s next.
               </h2>
             </div>
             <div className="md:col-span-2">
               <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-400 md:text-xl">
-                <strong className="font-semibold text-neutral-900 dark:text-white">
-                  Preface Labs
-                </strong>{" "}
-                is the umbrella I use for side projects while I&rsquo;m at
-                Carnegie Mellon University&mdash;clear packaging for recruiters
-                and collaborators who want to see execution, not just
-                coursework. I build when I have focused blocks outside
-                class&mdash;often weekends&mdash;because the fastest way I learn
-                is to ship: apply frameworks from school, sweat the details in
-                code and product, and aim for outcomes that help real people.
-                Recruiting is the first job of this site; I&rsquo;d love to talk
-                if that mission resonates.
+                Preface Labs is a tech holding company building AI-powered tools
+                and digital communities. We prefer small, opinionated teams,
+                honest craft, and products that ship. Each company in our
+                portfolio stands on its own&mdash;connected by a shared belief
+                that the best software feels like an introduction to what&rsquo;s
+                possible.
               </p>
             </div>
           </div>
@@ -297,7 +277,7 @@ export default function Page() {
       >
         <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 px-6 py-10 md:flex-row md:items-center">
           <p className="text-sm text-neutral-500 dark:text-neutral-500">
-            &copy; 2026 Preface Labs · Carnegie Mellon University · Pittsburgh
+            &copy; 2026 Preface Labs, Inc. Built in Pittsburgh.
           </p>
           <div className="flex flex-wrap items-center gap-2">
             <a
