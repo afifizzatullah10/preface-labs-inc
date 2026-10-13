@@ -5,6 +5,7 @@ import { ArrowLeft, ShieldCheck } from "lucide-react";
 import { useLanguage } from "../context/language-context";
 import LanguageSwitch from "../components/language-switch";
 import ThemeToggle from "../components/theme-toggle";
+import { BrandLogo } from "../components/brand-logo";
 
 export default function TermsPage() {
   const { lang } = useLanguage();
@@ -16,10 +17,11 @@ export default function TermsPage() {
         <div className="mx-auto flex h-16 max-w-4xl items-center justify-between px-6">
           <Link
             href="/"
-            className="flex items-center gap-2 text-sm font-bold tracking-tight text-neutral-900 dark:text-white"
+            className="flex items-center gap-3 text-sm font-bold tracking-tight text-neutral-900 dark:text-white"
+            aria-label="Preface Labs"
           >
             <ArrowLeft className="h-4 w-4" />
-            <span>Preface Labs</span>
+            <BrandLogo className="h-5 sm:h-6 w-auto" />
           </Link>
           <div className="flex items-center gap-3">
             <LanguageSwitch />
@@ -33,13 +35,13 @@ export default function TermsPage() {
           <div>
             <div className="flex items-center gap-2 text-rose-600 dark:text-rose-400 text-xs font-bold uppercase tracking-wider mb-2">
               <ShieldCheck className="h-4 w-4" />
-              <span>Dokumen Legal Resmi \u2022 PT AFAMS GLOBAL SOLUSINDO</span>
+              <span>Dokumen Legal Resmi • PT AFAMS GLOBAL SOLUSINDO</span>
             </div>
             <h1 className="text-3xl font-extrabold tracking-tight text-neutral-900 dark:text-white">
               {isId ? "Ketentuan Layanan (Terms of Service)" : "Terms of Service"}
             </h1>
             <p className="text-xs text-neutral-500 mt-1">
-              Terakhir diperbarui: 13 Oktober 2026 \u2022 Berlaku untuk seluruh transaksi di prefacelabs.com
+              Terakhir diperbarui: 13 Oktober 2026 • Berlaku untuk seluruh transaksi di prefacelabs.com
             </p>
           </div>
 

@@ -10,6 +10,7 @@ import {
 import { useLanguage } from "../context/language-context";
 import LanguageSwitch from "../components/language-switch";
 import ThemeToggle from "../components/theme-toggle";
+import { BrandLogo } from "../components/brand-logo";
 
 export default function DokuFlowPage() {
   const { lang } = useLanguage();
@@ -80,10 +81,11 @@ export default function DokuFlowPage() {
         <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
           <Link
             href="/"
-            className="flex items-center gap-2 text-sm font-bold tracking-tight text-neutral-900 dark:text-white"
+            className="flex items-center gap-3 text-sm font-bold tracking-tight text-neutral-900 dark:text-white"
+            aria-label="Preface Labs"
           >
             <ArrowLeft className="h-4 w-4" />
-            <span>Preface Labs</span>
+            <BrandLogo className="h-5 sm:h-6 w-auto" />
           </Link>
           <div className="flex items-center gap-3">
             <LanguageSwitch />
@@ -98,7 +100,7 @@ export default function DokuFlowPage() {
           <div className="flex flex-wrap items-center justify-between gap-4">
             <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-50 text-rose-700 dark:bg-rose-950/40 dark:text-rose-300 text-xs font-bold">
               <ShieldCheck className="h-4 w-4" />
-              <span>Dokumen Verifikasi Merchant DOKU \u2022 PT AFAMS GLOBAL SOLUSINDO</span>
+              <span>Dokumen Verifikasi Merchant DOKU • PT AFAMS GLOBAL SOLUSINDO</span>
             </span>
             <span className="text-xs font-mono text-neutral-500">
               ID Akun DOKU: BSN-0246-1791083540220

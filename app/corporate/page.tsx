@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import ThemeToggle from "../components/theme-toggle";
+import { BrandLogo } from "../components/brand-logo";
 
 function LinkedinIcon({ className }: { className?: string }) {
   return (
@@ -127,9 +128,13 @@ export default function CorporatePage() {
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
           <Link
             href="/corporate"
-            className="text-base font-bold tracking-tight text-neutral-900 dark:text-white"
+            className="flex items-center gap-2.5 transition-opacity hover:opacity-90"
+            aria-label="Preface Labs Inc"
           >
-            Preface Labs Inc
+            <BrandLogo className="h-6 sm:h-7 w-auto" />
+            <span className="text-[10px] font-bold uppercase tracking-widest px-1.5 py-0.5 rounded border border-neutral-300 dark:border-neutral-700 text-neutral-600 dark:text-neutral-400">
+              Inc
+            </span>
           </Link>
           <div className="flex items-center gap-5 sm:gap-7">
             <nav className="flex items-center gap-5 sm:gap-7">
@@ -147,7 +152,7 @@ export default function CorporatePage() {
                 className="text-xs font-semibold px-2.5 py-1 rounded-full border border-neutral-200 dark:border-neutral-800 text-neutral-600 dark:text-neutral-300 hover:border-neutral-400 transition-colors"
                 title="Switch to Preface Labs Indonesia Studio"
               >
-                Indonesia Studio \u2192
+                Indonesia Studio →
               </Link>
             </nav>
             <ThemeToggle />
@@ -302,9 +307,25 @@ export default function CorporatePage() {
         className="border-t border-neutral-200 bg-white dark:border-neutral-800 dark:bg-black"
       >
         <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 px-6 py-10 md:flex-row md:items-center">
-          <p className="text-sm text-neutral-500 dark:text-neutral-500">
-            &copy; 2026 Preface Labs Inc. Built in Pittsburgh.
-          </p>
+          <div className="space-y-2">
+            <p className="text-sm text-neutral-500 dark:text-neutral-500">
+              &copy; 2026 Preface Labs Inc. Built in Pittsburgh.
+            </p>
+            <div className="flex flex-wrap gap-4 text-xs font-medium text-neutral-500 dark:text-neutral-400">
+              <Link href="/terms" className="hover:text-neutral-900 dark:hover:text-white">
+                Terms
+              </Link>
+              <Link href="/privacy" className="hover:text-neutral-900 dark:hover:text-white">
+                Privacy
+              </Link>
+              <Link href="/refund" className="hover:text-neutral-900 dark:hover:text-white">
+                Refund
+              </Link>
+              <Link href="/doku-flow" className="hover:text-neutral-900 dark:hover:text-white">
+                DOKU Payment Flow
+              </Link>
+            </div>
+          </div>
           <div className="flex flex-wrap items-center gap-2">
             <a
               href="mailto:mizzatul@tepper.cmu.edu"

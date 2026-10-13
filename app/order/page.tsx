@@ -21,6 +21,7 @@ import {
 import { useLanguage } from "../context/language-context";
 import LanguageSwitch from "../components/language-switch";
 import ThemeToggle from "../components/theme-toggle";
+import { BrandLogo } from "../components/brand-logo";
 import DokuCheckoutModal, {
   type PaymentSuccessData,
 } from "../components/doku-checkout-modal";
@@ -159,10 +160,11 @@ export default function OrderPage() {
         <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
           <Link
             href="/"
-            className="flex items-center gap-2 text-sm font-bold tracking-tight text-neutral-900 dark:text-white"
+            className="flex items-center gap-3 text-sm font-bold tracking-tight text-neutral-900 dark:text-white"
+            aria-label="Preface Labs"
           >
             <ArrowLeft className="h-4 w-4" />
-            <span>Preface Labs</span>
+            <BrandLogo className="h-5 sm:h-6 w-auto" />
           </Link>
           <div className="flex items-center gap-3">
             <LanguageSwitch />
@@ -376,7 +378,7 @@ export default function OrderPage() {
                           : "border-neutral-200 bg-white text-neutral-600 dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-400"
                       }`}
                     >
-                      {active ? "\u2713 " : "+ "}
+                      {active ? "✓ " : "+ "}
                       {feat.label}
                     </button>
                   );
@@ -669,7 +671,7 @@ export default function OrderPage() {
                 <CheckCircle2 className="h-9 w-9" />
               </div>
               <span className="inline-block px-3 py-1 rounded-full bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300 text-xs font-bold uppercase tracking-wider">
-                {isId ? "Pembayaran DOKU Berhasil \u2022 LUNAS" : "DOKU Payment Successful \u2022 PAID"}
+                {isId ? "Pembayaran DOKU Berhasil • LUNAS" : "DOKU Payment Successful • PAID"}
               </span>
               <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-neutral-900 dark:text-white">
                 {isId ? "Terima Kasih, Pesanan Anda Terkonfirmasi!" : "Thank You, Your Order is Confirmed!"}

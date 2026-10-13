@@ -8,21 +8,21 @@ export default function manifest(): MetadataRoute.Manifest {
       "The introduction to what's next. Building AI-powered tools and digital communities for the modern web.",
     start_url: "/",
     display: "standalone",
-    background_color: "#0f172a",
-    theme_color: "#1d4ed8",
+    background_color: "#0C0D10",
+    theme_color: "#0C0D10",
     icons: [
       {
-        src: "/icon",
+        src: "/android-chrome-192.png",
         sizes: "192x192",
         type: "image/png",
       },
       {
-        src: "/icon",
+        src: "/android-chrome-512.png",
         sizes: "512x512",
         type: "image/png",
       },
       {
-        src: "/apple-icon",
+        src: "/apple-touch-icon.png",
         sizes: "180x180",
         type: "image/png",
       },

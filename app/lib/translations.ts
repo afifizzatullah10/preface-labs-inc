@@ -90,13 +90,13 @@ export const translations: Record<Language, TranslationDictionary> = {
       orderNow: "Mulai Konsultasi (Rp 99k)",
     },
     hero: {
-      badge: "Tech Holding & Studio Software Kustom \u2022 PT Afams Global Solusindo",
+      badge: "Tech Holding & Studio Software Kustom • PT Afams Global Solusindo",
       title: "Preface Labs",
       subtitle:
         "Merancang dan membangun software kustom B2C & B2B, platform AI, dan aplikasi modern untuk pasar Indonesia dan global. Dari riset hingga rilis produksi dalam hitungan minggu.",
       legalNote:
-        "Entitas Resmi: PT AFAMS GLOBAL SOLUSINDO \u2022 Pembayaran Resmi Didukung DOKU Payment Gateway",
-      ctaPrimary: "Mulai Konsultasi Awal \u2022 Rp 99.000",
+        "Entitas Resmi: PT AFAMS GLOBAL SOLUSINDO • Pembayaran Resmi Didukung DOKU Payment Gateway",
+      ctaPrimary: "Mulai Konsultasi Awal • Rp 99.000",
       ctaSecondary: "Lihat Karya & Portofolio",
       pricingHighlight:
         "Konsultasi awal & blueprint teknis software hanya Rp 99.000 (diskon promo).",
@@ -145,7 +145,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         "Faktur resmi PT AFAMS GLOBAL SOLUSINDO via DOKU Payment Gateway",
         "Garansi uang kembali 100% jika sesi tidak memberikan kejelasan teknis",
       ],
-      cta: "Pesan Sesi Konsultasi \u2022 Rp 99.000",
+      cta: "Pesan Sesi Konsultasi • Rp 99.000",
       note: "Pembayaran aman melalui DOKU: QRIS, VA Bank Mandiri, BCA, BRI, BNI, dan E-Wallet.",
     },
     portfolio: {
@@ -182,7 +182,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       ],
     },
     footer: {
-      rights: "\u00a9 2026 Preface Labs. Seluruh hak cipta dilindungi.",
+      rights: "© 2026 Preface Labs. Seluruh hak cipta dilindungi.",
       legalEntity:
         "Preface Labs adalah merek dagang resmi di bawah naungan PT AFAMS GLOBAL SOLUSINDO.",
       terms: "Ketentuan Layanan",
@@ -203,13 +203,13 @@ export const translations: Record<Language, TranslationDictionary> = {
       orderNow: "Book Consultation (Rp 99k)",
     },
     hero: {
-      badge: "Tech Holding & Custom Software Studio \u2022 PT Afams Global Solusindo",
+      badge: "Tech Holding & Custom Software Studio • PT Afams Global Solusindo",
       title: "Preface Labs",
       subtitle:
         "Building custom B2C & B2B software, AI-powered systems, and modern digital applications for Indonesia and global markets. From scoping to production in weeks.",
       legalNote:
-        "Legal Entity: PT AFAMS GLOBAL SOLUSINDO \u2022 Official Payments Powered by DOKU Gateway",
-      ctaPrimary: "Book Early Consultation \u2022 Rp 99.000",
+        "Legal Entity: PT AFAMS GLOBAL SOLUSINDO • Official Payments Powered by DOKU Gateway",
+      ctaPrimary: "Book Early Consultation • Rp 99.000",
       ctaSecondary: "View Portfolio & Work",
       pricingHighlight:
         "Kickstart your custom software blueprint for only Rp 99,000 (~$6.50 USD).",
@@ -258,7 +258,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         "Official PT AFAMS GLOBAL SOLUSINDO invoice via DOKU Payment Gateway",
         "100% satisfaction guarantee or full refund",
       ],
-      cta: "Book Consultation Session \u2022 Rp 99.000",
+      cta: "Book Consultation Session • Rp 99.000",
       note: "Secure payment through DOKU: QRIS, Mandiri VA, BCA VA, BRI, BNI, and E-Wallets.",
     },
     portfolio: {
@@ -295,7 +295,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       ],
     },
     footer: {
-      rights: "\u00a9 2026 Preface Labs. All rights reserved.",
+      rights: "© 2026 Preface Labs. All rights reserved.",
       legalEntity:
         "Preface Labs is an official trading brand operated by PT AFAMS GLOBAL SOLUSINDO.",
       terms: "Terms of Service",

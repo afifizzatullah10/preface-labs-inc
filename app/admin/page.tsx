@@ -12,6 +12,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { useAuth } from "../components/auth-provider";
 import ThemeToggle from "../components/theme-toggle";
+import { BrandLogo } from "../components/brand-logo";
 import { isAdminEmail } from "../lib/admin";
 import { db } from "../lib/firebase";
 import {
@@ -81,8 +82,8 @@ export default function AdminPage() {
   return (
     <main className="min-h-screen bg-neutral-50 px-6 py-8 text-neutral-900 dark:bg-neutral-950 dark:text-white">
       <div className="mx-auto flex max-w-6xl items-center justify-between">
-        <Link href="/" className="text-sm font-semibold">
-          Preface Labs
+        <Link href="/" className="flex items-center gap-2" aria-label="Preface Labs">
+          <BrandLogo className="h-6 w-auto" />
         </Link>
         <div className="flex items-center gap-4">
           <Link

@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import ThemeToggle from "../components/theme-toggle";
 import { useAuth } from "../components/auth-provider";
+import { BrandLogo } from "../components/brand-logo";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -34,8 +35,8 @@ export default function LoginPage() {
   return (
     <main className="min-h-screen bg-neutral-50 px-6 py-8 text-neutral-900 dark:bg-neutral-950 dark:text-white">
       <div className="mx-auto flex max-w-5xl items-center justify-between">
-        <Link href="/" className="text-sm font-semibold">
-          Preface Labs
+        <Link href="/" className="flex items-center gap-2" aria-label="Preface Labs">
+          <BrandLogo className="h-6 w-auto" />
         </Link>
         <ThemeToggle />
       </div>

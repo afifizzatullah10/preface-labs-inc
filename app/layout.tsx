@@ -10,18 +10,21 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Preface Labs \u2014 Studio Software Kustom & AI",
+  title: "Preface Labs — Studio Software Kustom & AI",
   description:
     "Merancang & membangun software kustom B2C & B2B, platform AI, dan aplikasi modern. Didukung PT Afams Global Solusindo & DOKU Payment Gateway.",
   metadataBase: new URL("https://prefacelabs.com"),
   manifest: "/manifest.webmanifest",
   icons: {
-    icon: [{ url: "/icon?v=2", type: "image/png" }],
-    apple: [{ url: "/apple-icon?v=2", type: "image/png" }],
-    shortcut: ["/icon?v=2"],
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" }],
+    shortcut: ["/favicon.ico"],
   },
   openGraph: {
-    title: "Preface Labs \u2014 Studio Software Kustom & AI",
+    title: "Preface Labs — Studio Software Kustom & AI",
     description:
       "Merancang & membangun software kustom B2C & B2B, platform AI, dan aplikasi modern. Didukung PT Afams Global Solusindo & DOKU Payment Gateway.",
     type: "website",
@@ -29,7 +32,7 @@ export const metadata: Metadata = {
     url: "https://prefacelabs.com",
     images: [
       {
-        url: "/opengraph-image?v=4",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Preface Labs",
@@ -38,10 +41,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Preface Labs \u2014 Studio Software Kustom & AI",
+    title: "Preface Labs — Studio Software Kustom & AI",
     description:
       "Merancang & membangun software kustom B2C & B2B, platform AI, dan aplikasi modern. Didukung PT Afams Global Solusindo & DOKU Payment Gateway.",
-    images: ["/twitter-image?v=4"],
+    images: ["/og-image.png"],
   },
 };
 

@@ -25,6 +25,7 @@ import Link from "next/link";
 import ThemeToggle from "./components/theme-toggle";
 import LanguageSwitch from "./components/language-switch";
 import { useLanguage } from "./context/language-context";
+import { BrandLogo } from "./components/brand-logo";
 
 function LinkedinIcon({ className }: { className?: string }) {
   return (
@@ -158,9 +159,10 @@ export default function Page() {
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
           <a
             href="#top"
-            className="text-base font-bold tracking-tight text-neutral-900 dark:text-white"
+            className="flex items-center gap-2 transition-opacity hover:opacity-90"
+            aria-label="Preface Labs"
           >
-            Preface Labs
+            <BrandLogo className="h-6 sm:h-7 w-auto" />
           </a>
 
           <div className="flex items-center gap-3 sm:gap-6">
@@ -177,12 +179,6 @@ export default function Page() {
               >
                 {t.nav.portfolio}
               </a>
-              <Link
-                href="/doku-flow"
-                className="text-xs sm:text-sm text-neutral-600 transition-colors hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-white"
-              >
-                {t.nav.flow}
-              </Link>
               <a
                 href="#about"
                 className="text-xs sm:text-sm text-neutral-600 transition-colors hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-white"
@@ -194,7 +190,7 @@ export default function Page() {
                 className="text-xs font-semibold px-2.5 py-1 rounded-full border border-neutral-200 dark:border-neutral-800 text-neutral-600 dark:text-neutral-300 hover:border-neutral-400 transition-colors"
                 title="Preface Labs Inc Corporate / Holding site"
               >
-                Corporate \u2197
+                Corporate ↗
               </Link>
             </nav>
 
@@ -333,7 +329,7 @@ export default function Page() {
                     {t.packageCard.price}
                   </div>
                   <span className="text-xs text-neutral-500 block">
-                    {t.packageCard.period} \u2022 Termasuk Blueprint & 1-on-1
+                    {t.packageCard.period} • Termasuk Blueprint & 1-on-1
                   </span>
                 </div>
               </div>
@@ -559,8 +555,8 @@ export default function Page() {
         <div className="mx-auto max-w-6xl px-6 py-12 space-y-8">
           <div className="flex flex-col md:flex-row items-start justify-between gap-6 pb-8 border-b border-neutral-200 dark:border-neutral-800">
             <div className="space-y-2 max-w-md">
-              <div className="text-base font-bold text-neutral-900 dark:text-white">
-                Preface Labs
+              <div className="flex items-center gap-2">
+                <BrandLogo className="h-5 w-auto" />
               </div>
               <p className="text-xs text-neutral-500 leading-relaxed">
                 {t.footer.legalEntity}
@@ -581,7 +577,7 @@ export default function Page() {
               <Link href="/refund" className="hover:text-neutral-900 dark:hover:text-white">
                 {t.footer.refund}
               </Link>
-              <Link href="/doku-flow" className="hover:text-neutral-900 dark:hover:text-white text-[#E11D48] dark:text-rose-400 font-bold">
+              <Link href="/doku-flow" className="hover:text-neutral-900 dark:hover:text-white">
                 {t.footer.dokuFlow}
               </Link>
               <Link href="/corporate" className="hover:text-neutral-900 dark:hover:text-white">
