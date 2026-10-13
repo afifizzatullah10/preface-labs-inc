@@ -28,14 +28,14 @@ def create_bukti_bisnis():
     # Crimson accent line (matching DOKU & Preface Labs accent)
     draw.rectangle([(0, header_h - 8), (W, header_h)], fill="#E11D48")
 
-    # Logo
+    # Logo (Current brand icon)
     logo_path = "public/brand/preface-labs-icon.png"
     if os.path.exists(logo_path):
         logo = Image.open(logo_path).convert("RGBA")
         logo = logo.resize((150, 150), Image.Resampling.LANCZOS)
-        # Background circle for logo
-        draw.ellipse([(60, 45), (220, 205)], fill="#1E293B", outline="#334155", width=3)
-        img.paste(logo, (65, 50), logo)
+        # Subtle rounded container border matching new squircle radius
+        draw.rounded_rectangle([(57, 42), (213, 198)], radius=36, outline="#334155", width=2)
+        img.paste(logo, (60, 45), logo)
 
     # Header Titles
     draw.text((250, 60), "PREFACE LABS", font=font_title, fill="#FFFFFF")
