@@ -113,7 +113,7 @@ def create_bukti_bisnis():
         ),
         (
             "3. AI AGENTS & OTOMASI WORKFLOW",
-            "Implementasi LLM cerdas (OpenAI/Claude), asisten obrolan terintegrasi, ekstraksi dokumen otomatis, dan automasi proses.",
+            "Implementasi LLM cerdas (OpenAI/Claude), automasi proses, dan form intake cerdas (Contoh: Solyns AI & Solyns Form).",
             "OpenAI API \u2022 LangChain \u2022 Vector DB \u2022 Python",
             "Mulai Rp 18.000.000 / Integrasi Kustom",
             "#7C3AED"
