@@ -33,6 +33,10 @@ This is the live company-first copy. It was saved when the site briefly pivoted 
 2. **Solyns AI Form** — AI intelligent, structured intake forms for automated data collection.
 3. **ReplyLocal** — Tools for local engagement and business outreach.
 4. **Moonlight Muslims** — Personalized, AI-powered bedtime audio stories that bring Islamic values to life for the next generation.
+5. **Wonder Deen** — Interactive Islamic children's storybooks, e-books, and educational audiobooks.
+6. **Starring My Dog** — Custom AI-generated dog wall calendars featuring your pet across 12 months of art.
+
+*Note: The original company-holding presentation is preserved live at `/corporate` (`prefacelabs.tech/corporate`).*
 
 ---
 

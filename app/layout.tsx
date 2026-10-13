@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { AuthProvider } from "./components/auth-provider";
+import { LanguageProvider } from "./context/language-context";
 import "./globals.css";
 
 const inter = Inter({
@@ -9,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Preface Labs",
+  title: "Preface Labs \u2014 Studio Software Kustom & AI",
   description:
-    "The introduction to what's next. Building AI-powered tools and digital communities for the modern web.",
+    "Merancang & membangun software kustom B2C & B2B, platform AI, dan aplikasi modern. Didukung PT Afams Global Solusindo & DOKU Payment Gateway.",
   metadataBase: new URL("https://prefacelabs.com"),
   manifest: "/manifest.webmanifest",
   icons: {
@@ -20,9 +21,9 @@ export const metadata: Metadata = {
     shortcut: ["/icon?v=2"],
   },
   openGraph: {
-    title: "Preface Labs",
+    title: "Preface Labs \u2014 Studio Software Kustom & AI",
     description:
-      "The introduction to what's next. Building AI-powered tools and digital communities for the modern web.",
+      "Merancang & membangun software kustom B2C & B2B, platform AI, dan aplikasi modern. Didukung PT Afams Global Solusindo & DOKU Payment Gateway.",
     type: "website",
     siteName: "Preface Labs",
     url: "https://prefacelabs.com",
@@ -37,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Preface Labs",
+    title: "Preface Labs \u2014 Studio Software Kustom & AI",
     description:
-      "The introduction to what's next. Building AI-powered tools and digital communities for the modern web.",
+      "Merancang & membangun software kustom B2C & B2B, platform AI, dan aplikasi modern. Didukung PT Afams Global Solusindo & DOKU Payment Gateway.",
     images: ["/twitter-image?v=4"],
   },
 };
@@ -51,12 +52,14 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="id"
       className={`${inter.variable} scroll-smooth h-full`}
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-white text-neutral-900 antialiased font-sans transition-colors duration-200 dark:bg-black dark:text-neutral-100">
-        <AuthProvider>{children}</AuthProvider>
+        <LanguageProvider>
+          <AuthProvider>{children}</AuthProvider>
+        </LanguageProvider>
       </body>
     </html>
   );
